@@ -1,5 +1,7 @@
 # Automate versioning of a .net library
 
+Automate versioning using the T4 Text template.
+
 ## Version Definition
 
 [Major].[Minor].[Revision].[Build] => 1.0.100.16
