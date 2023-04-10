@@ -1,4 +1,6 @@
-﻿<#@ template debug="true" hostspecific="true" language="C#" #>
+﻿// VERSION 1.0
+
+<#@ template debug="true" hostspecific="true" language="C#" #>
 <#@ output extension=".cs" #>
 
 <#@ import namespace="System.IO" #>
