@@ -48,7 +48,7 @@ string historyFile = ttPath.Replace(ttFileName, "FileHistory.txt");
         }
     }  
 
-    Console.WriteLine($"v{historyVersion} => v{major}.{minor}.{revision}.{build}");
+    Console.WriteLine($"[{assemblyTitle}] v{historyVersion} => v{major}.{minor}.{revision}.{build}");
 
     File.WriteAllText(historyFile, $"{major}.{minor}.{revision}.{build}");
 #>

@@ -14,16 +14,16 @@ using System.Resources;
 [assembly: NeutralResourcesLanguage("en-AU")]
 
 // Version information
-[assembly: AssemblyVersion("1.0.464.3")]
-[assembly: AssemblyFileVersion("1.0.464.3")]
+[assembly: AssemblyVersion("1.0.464.7")]
+[assembly: AssemblyFileVersion("1.0.464.7")]
 
 namespace TommoJProductions.AutoVersioningDemo
 {
 
     public class VersionInfo
     {
-	    public const string lastestRelease = "10.04.2023 05:41 PM";
-	    public const string version = "1.0.464.3";
+	    public const string lastestRelease = "10.04.2023 07:15 PM";
+	    public const string version = "1.0.464.7";
 
         /// <summary>
         /// Represents if the mod has been complied for x64
