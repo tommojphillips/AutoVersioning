@@ -37,12 +37,13 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="prebuild event.txt" />
+    <Content Include="AutoVersioning T4 Templete\prebuild event.txt" />
     <Content Include="Properties\AssemblyInfo.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
     </Content>
-    <Content Include="Versioning Definition.txt" />
+    <Content Include="AutoVersioning T4 Templete\Versioning Definition.txt" />
+    <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

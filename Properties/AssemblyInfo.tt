@@ -1,8 +1,6 @@
 ﻿// VERSION 1.2
-
 <#@ template debug="true" hostspecific="true" language="C#" #>
 <#@ output extension=".cs" #>
-
 <#@ import namespace="System" #>
 <#@ import namespace="System.IO" #>
 <#@ import namespace="System.Text.RegularExpressions" #>
