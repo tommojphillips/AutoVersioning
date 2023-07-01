@@ -20,7 +20,7 @@ namespace TommoJProductions.AutoVersioningDemo
 
     public class VersionInfo
     {
-	    public const string lastestRelease = "01.07.2023 04:29 PM";
+	    public const string lastestRelease = "06.05.2023 06:46 PM";
 	    public const string version = "1.2.0.10";
 
         /// <summary>
