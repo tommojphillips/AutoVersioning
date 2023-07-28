@@ -1,4 +1,4 @@
-﻿// VERSION 1.2
+﻿// VERSION 1.3
 <#@ template debug="true" hostspecific="true" language="C#" #>
 <#@ output extension=".cs" #>
 <#@ import namespace="System" #>
@@ -86,10 +86,19 @@ using System.Resources;
 
 namespace <#= this.namespaceName #>.<#= this.assemblyTitle.Replace(" ", "") #>
 {
-
+    
+    /// <summary>
+    /// Represents the version info for <#= this.assemblyTitle #>
+    /// </summary>
     public class VersionInfo
     {
+        /// <summary>
+        /// Represents latest release version date. Format: dd:MM:yyyy hh:mm tt
+        /// </summary>
 	    public const string lastestRelease = "<#= DateTime.Now.ToString("dd.MM.yyyy hh:mm tt") #>";
+        /// <summary>
+        /// Represents current version.
+        /// </summary>
 	    public const string version = "<#= $"{major}.{minor}.{revision}.{build}" #>";
 
         /// <summary>

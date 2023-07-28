@@ -1,4 +1,4 @@
-﻿// VERSION 1.2
+﻿// VERSION 1.3
 using System.Reflection;
 using System.Resources;
 
@@ -12,16 +12,25 @@ using System.Resources;
 [assembly: NeutralResourcesLanguage("en-AU")]
 
 // Version information
-[assembly: AssemblyVersion("1.2.0.10")]
-[assembly: AssemblyFileVersion("1.2.0.10")]
+[assembly: AssemblyVersion("1.3.0.20")]
+[assembly: AssemblyFileVersion("1.3.0.20")]
 
 namespace TommoJProductions.AutoVersioningDemo
 {
-
+    
+    /// <summary>
+    /// Represents the version info for AutoVersioningDemo
+    /// </summary>
     public class VersionInfo
     {
-	    public const string lastestRelease = "06.05.2023 06:46 PM";
-	    public const string version = "1.2.0.10";
+        /// <summary>
+        /// Represents latest release version date. Format: dd:MM:yyyy hh:mm tt
+        /// </summary>
+	    public const string lastestRelease = "14.07.2023 06:58 PM";
+        /// <summary>
+        /// Represents current version.
+        /// </summary>
+	    public const string version = "1.3.0.20";
 
         /// <summary>
         /// Represents if the mod has been complied for x64
